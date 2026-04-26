@@ -11,11 +11,11 @@ characters = ""
 
 if use_letters == "y":
     characters += string.ascii_letters
-elif use_numbers == "y":
+if use_numbers == "y":
     characters += string.digits
-elif use_symbols == "y":
+if use_symbols == "y":
     characters += string.punctuation
-elif characters == "":
+if characters == "":
     print("You must select at least one option!")
     exit()
 
